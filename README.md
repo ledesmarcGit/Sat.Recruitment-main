@@ -20,14 +20,19 @@ hacia la programacion orientada a objetos y antepone los objetos a todos los dem
 Se tuvo en cuenta el principio de inyeccion de dependencias en todo el codigo para evitar el acoplamiento.
 
 Capas implementadas:
+
 -Capa de dominio (Domain): Centro de la arquitectura, contiene todas las entidades del dominio, son planos sin logica 
 compleja
+
 -Servicios de dominio(Application):Encargada de definir las interfaces para permitir almacenar y recuperar objetos, 
 y de las reglas de negocio.
+
 -Capa Persistence:Aqui estan las implementaciones de las interfaces definidas en la capa Application, esta capa permitira 
 facilmente implementar una base de datos.
+
 -WebAPI: Aqui esta todo lo relacionado con la logica de presentacion, controladores, middlewares y el acceso a la API.
 -Test.
+
 
  Implemente el patron CQRS, separando las operaciones de lectura y escritura esto permite aplicar uno de los principios SOLID
  de responsabilida unica.
