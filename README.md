@@ -12,7 +12,7 @@ Se puede realizar cualquier cambio que considere necesario en el código y en lo
 
 
 
-
+## Implementación 
 
 Decidí implementar para este proyecto la arquitectura "Onion Architecture" para asegurarme que sea mantenible y facilmente 
 extensible, esta arquitectura me permitio controlar el acoplamiento entre clases además esta indudablemente sesgada 
