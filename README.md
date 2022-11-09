@@ -12,6 +12,8 @@ Se puede realizar cualquier cambio que considere necesario en el código y en lo
 
 
 
+
+
 Decidi implementar para este proyecto la arquitectura "Onion Architecture" para asegurarme que sea mantenible y facilmente 
 extensible,esta arquitectura me permitio controlar el acoplamiento entre clases ademas esta indudablemente sesgada 
 hacia la programacion orientada a objetos y antepone los objetos a todos los demas.
