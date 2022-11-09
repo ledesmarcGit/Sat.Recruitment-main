@@ -27,18 +27,19 @@ compleja
 -Servicios de dominio(Application):Encargada de definir las interfaces para permitir almacenar y recuperar objetos, 
 y de las reglas de negocio.
 
--Capa Persistence: Aqui estan las implementaciones de las interfaces definidas en la capa Application, esta capa permitira 
+-Capa Persistence: Aquí estan las implementaciones de las interfaces definidas en la capa Application, esta capa permitira 
 facilmente implementar una base de datos.
 
--WebAPI: Aqui esta todo lo relacionado con la lógica de presentación, controladores, middlewares y el acceso a la API.
+-WebAPI: Aquí esta todo lo relacionado con la lógica de presentación, controladores, middlewares y el acceso a la API.
 
 -Test.
 
 
  Implementé el patron CQRS, separando las operaciones de lectura y escritura esto permite aplicar uno de los principios SOLID
  de responsabilida única.
- Implementé el patron Mediator, me permitio reducir las dependencias entre objetos mediante un objeto mediador.
- La Api se puede probar mediante Swagger.
+Implementé el patron Mediator, me permitio reducir las dependencias entre objetos mediante un objeto mediador.
+
+La Api se puede probar mediante Swagger.
 
 Se actualizo a NET 6.
 
