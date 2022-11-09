@@ -55,5 +55,7 @@ XUnit -> Tests
 
 Para una próxima iteración del proyecto se podría implementar una base de datos y seguridad mediante JWT.
 
+Nota: setear WebAPI como proyecto de inicio.
+
 Autor: Marcos Ledesma.-
 Email: ledesmarc@hotmail.com
